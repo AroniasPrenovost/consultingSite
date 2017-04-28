@@ -111,15 +111,7 @@ img:hover {
 .navbar-default .navbar-toggle:focus { 
   background-color: transparent 
 }
-/* ------------------------------------------ */
 
-
-
-
-
-
-/* ------------------------------------------ */
-/* home section */
 #home {
   /*  background: url('../images/test.jpg')no-repeat; */
   position: relative;
@@ -141,6 +133,65 @@ padding-bottom: 100px;  */
   background-repeat: no-repeat;
   background-size: cover;
 }
+#left:hover:before {
+  opacity:.6;
+  background: url('../images/phone.jpg')no-repeat;
+}
+
+#left {
+  position: relative;
+  min-height: 800px;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  background: url('../images/phone.jpg')no-repeat;
+}
+
+#left:hover {
+  opacity:.6;
+  background: url('../images/phone.jpg')no-repeat;
+}
+
+#right {
+  position: relative;
+  min-height: 800px;
+  width: 50%;
+  overflow: hidden;
+  background: rgba(105, 137, 150,.1);
+}
+
+#right:hover {
+  opacity:.9;
+  background: url('../images/resume.jpg')no-repeat;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:1px;
+}
+
+.button {
+  background:transparent; 
+  color: white; 
+  border: 2px solid white;
+}
+
+.button:hover {
+  background:transparent;
+  color: white;
+  border: 2px solid grey;
+}
 
 #parallax2 {
   background: url('../images/pdad.gif')no-repeat;
@@ -154,10 +205,10 @@ padding-bottom: 100px;  */
 
 .layer {
   background-color: #f2f3f7; /* #F1AB86;/* #F1AB86; */ /* rgb(219, 147, 71); */
-  float:right;
+  background-color:cover;
   opacity: .95;
-  width: 505px;
-  height: 240px; 
+  width: 45%;
+  height: 100%; 
 }
 
 .layer2 {
@@ -198,7 +249,7 @@ padding-bottom: 100px;  */
 
 .sigma-content h2 {
   font-size: 6.5em;
-    font-weight:800;
+  font-weight:800;
 }
 .sigma-content p {
   font-size: 2em;
@@ -274,6 +325,18 @@ a:hover {
   background: #dc5034;
   border-color: transparent;
   color: #fff;
+}
+
+.call-to-action {
+  text-align: center;
+  width: 100%;
+  padding-top:35%;
+
+}
+
+.call-to-action p {
+  padding-right:20%;
+  padding-left:20%;
 }
 
 /* service section */
@@ -470,8 +533,8 @@ a:hover {
   padding-bottom:5%;
 }
 
-
-div button {
+/* quote section buttons */
+#displayDetails {
   border:none;
   background-color: #f1ab86;
   width: 34px;   
@@ -480,26 +543,73 @@ div button {
   margin-left:5px;
   border-radius:20px;
 }
-div button:hover {
+#displayDetails:hover {
   background-color: #f2f3f7;
   text-decoration: none;
 }
 
-div button:active {
+#displayDetails:active {
   background-color: #f2f3f7;
   text-decoration: none;
 }
-div button:focus {
+#displayDetails:focus {
   background-color: #f2f3f7;
   text-decoration: none;
 }
+
+#displayDetail {
+  border:none;
+  background-color: #f1ab86;
+  width: 34px;   
+  height:8px;    
+  margin-right:5px;
+  margin-left:5px;
+  border-radius:20px;
+}
+#displayDetail:hover {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+
+#displayDetail:active {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+#displayDetail:focus {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+
+#displayDetai {
+  border:none;
+  background-color: #f1ab86;
+  width: 34px;   
+  height:8px;    
+  margin-right:5px;
+  margin-left:5px;
+  border-radius:20px;
+}
+#displayDetai:hover {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+
+#displayDetai:active {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+#displayDetai:focus {
+  background-color: #f2f3f7;
+  text-decoration: none;
+}
+
 /* use this because Chrome will apply highlighting to 
 other elements such as DIV's used as modals */
 *:focus {
   outline: 0;
 }
-/* ---------- Quote Section ---------- */
-/* FILTER CSS */
+/* quote section buttons */
+/* filter css */
 .filter-wrapper {
   width: 100%;
   margin: 0 0 24px 0;
@@ -766,8 +876,7 @@ footer span {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
 }
-.go-top:hover
-{
+.go-top:hover {
   background-color: #57a773;
   color: #fff;
 }
