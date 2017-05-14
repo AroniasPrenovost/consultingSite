@@ -633,6 +633,35 @@ a:hover {
   font-weight: bold;
 }
 
+.container-bottom{
+width:100%;
+height:0 auto;
+font-size:1.5em;
+background-color:none;
+}
+.container-bottom button {
+  width:100%;
+  margin:5% 5%;
+
+}
+
+.content{
+float:left;
+height:30px;
+
+}
+.content1{
+width:50%;
+height:100%;
+background-color:blue;
+}
+.content2{
+width:50%;
+height:100%;
+background-color:green;
+}
+
+
 #home .btn {
   background: rgba(255, 255, 255, 0.6);
   border: 2px solid #444;
@@ -784,6 +813,19 @@ a:hover {
   background-color: rgb(242, 243, 247);
 }
 
+.arrow1 {
+  position:relative;
+  float:right;
+  margin-left:12px;
+  font-size:.8em;
+}
+.arrow2 {
+  position:relative;
+  float:right;
+  margin-left:12px;
+  font-size:.8em;
+}
+
 .button-about {
   display: inline-block;
   border-radius: 4px;
@@ -805,16 +847,17 @@ a:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 0.8s;
 }
+
 
 .button-about span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
-  transition: 0.5s;
+  right: -40px;
+  transition: 0.8s;
 }
 
 .button-about:hover span {
