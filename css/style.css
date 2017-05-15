@@ -30,7 +30,6 @@ hr {
   margin: 0;
   opacity: 0.3;
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -636,7 +635,7 @@ a:hover {
 .container-bottom{
 width:100%;
 height:0 auto;
-font-size:1.5em;
+font-size:1.3em;
 background-color:none;
 }
 .container-bottom button {
@@ -751,26 +750,51 @@ background-color:green;
   padding-bottom: 80px;
   background-color:#c7c3bc
 }
+.wrapper {
+  margin-top:0%;
+  margin-bottom:2.5%;
+  width: 100%; 
+  min-height:60px;
+  text-align:center;
+}
+.right {
+float:left;
+    width:50%;
+    height: 100%; 
+  background-color:blue;
+}
 
+.left {
+    position:relative;
+  width:50%;  
+  height: 100%; 
+  background-color:green;
+  float:left;
+
+}
 .section-2 {
   width:60%;
-  background-color: green;
+  background-color: orange;
   margin:0 auto;
-  min-height:350px;
-  margin-top:20%;
-  margin-bottom: 20%;
-}
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
+  text-align: center;
+text-align:left;}
 .section-2-content {
-  padding: 8% 8% 10% 10%;
+  padding:5% 5% 5% 5%;
+}
+.section-2-content button {
+  margin-top:4%;
+}
+.section-3 {
   width:100%;
-  height: 0 auto;
+  background-color: orange;
+  margin:0 auto;
+  margin-top:2.5%;
+  margin-bottom: 2.5%;
+  text-align: center;
 }
 
-.section-2 .button {
-  margin-top:8%;
-  padding: 2px 40px;
-  float:left;
-}
 /* team section */
 #team {
   padding-top: 60px;
@@ -813,18 +837,13 @@ background-color:green;
   background-color: rgb(242, 243, 247);
 }
 
-.arrow1 {
+.arrow {
   position:relative;
   float:right;
-  margin-left:12px;
+  margin-left:1px;
   font-size:.8em;
 }
-.arrow2 {
-  position:relative;
-  float:right;
-  margin-left:12px;
-  font-size:.8em;
-}
+
 
 .button-about {
   display: inline-block;
@@ -849,8 +868,6 @@ background-color:green;
   position: relative;
   transition: 0.8s;
 }
-
-
 .button-about span:after {
   content: '\00bb';
   position: absolute;
@@ -874,7 +891,6 @@ background-color:green;
   padding-bottom: 60px;
   background-color: white;
 }
-
 #news2 {
   background-color:white;
   position: relative;
@@ -1058,6 +1074,49 @@ other elements such as DIV's used as modals */
 
 .container-fluid img {
   margin-top:2%;
+}
+
+
+#left {
+  position: relative;
+  min-height: 100px;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  text-decoration: none;
+  background-color:green;
+}
+
+#eleft:hover {
+  opacity:1;
+  text-decoration: none;
+  background-color:red;
+}
+
+#right {
+  position: relative;
+  min-height: 100px;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  text-decoration: none;
+  background-color:orange;
+}
+
+#right a {
+  text-decoration: none;
+}
+#right:hover {
+  opacity:1;
+  background-color:red;
+  text-decoration: none;
+}
+
+#wrapper .button-about {
+  margin-top:3%;
+  margin-bottom:1%;
+  width:100%;
+  color:white;
 }
 
 /* quote section buttons */
@@ -1273,6 +1332,27 @@ other elements such as DIV's used as modals */
   border-right: none;
   vertical-align: center;
 }
+#foot-head {
+  text-align:center;
+}
+#foot-head button {
+color:black;
+}
+#foot-head .button {
+  text-align: center
+  color:black;
+  border-color:grey;
+}
+#foot-head .button:hover {
+  text-align: center
+  color:black;
+  border-color:black;
+}
+
+
+
+
+
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
