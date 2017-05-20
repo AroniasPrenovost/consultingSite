@@ -1,6 +1,6 @@
 // quote generator
 var quotesArr = [];
-quotesArr[0] = '<span style="font-size:3.3em">We find Compatibily.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr[0] = '<span style="font-size:3.3em">We find Compatibility.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 quotesArr[1] = '<span style="font-size:3.3em">We help clients.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 quotesArr[2] = '<span style="font-size:3.3em">We understand goals.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 quotesArr[3] = '<span style="font-size:3.3em">We get it.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
