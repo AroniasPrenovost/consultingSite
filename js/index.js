@@ -1,3 +1,7 @@
+// masthead background color change functionality 
+function chbg(color) {
+	document.getElementById('b').style.backgroundColor = color;
+}
 // quote generator
 var quotesArr = [];
 quotesArr[0] = '<span style="font-size:3.3em">We find Compatibility.</span> <br> <span style="font-size:1.0em">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
@@ -13,4 +17,5 @@ displayDetails(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails").onclick = displayDetails;
 	document.getElementById("displayDetail").onclick = displayDetails;
 	document.getElementById("displayDetai").onclick = displayDetails;
+
 
