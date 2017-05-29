@@ -17,5 +17,3 @@ displayDetails(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails").onclick = displayDetails;
 	document.getElementById("displayDetail").onclick = displayDetails;
 	document.getElementById("displayDetai").onclick = displayDetails;
-
-

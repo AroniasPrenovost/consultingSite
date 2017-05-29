@@ -19,6 +19,23 @@
 
 ;(function($, window, document, undefined){
 
+// jquery navbar brand disappear on scroll effect 
+$(window).scroll(function() {
+	if ($(this).scrollTop() > 0)
+	{
+		$('.navbar').addClass('shrink');
+		$('.top-brand').fadeOut();
+		$('.navlogo').addClass('move');
+		$('.box').fadeOut();
+	}
+	else
+	{
+		$('.box, .top-brand').fadeIn();
+		$('.navlogo').removeClass('move');
+		$('.navbar').removeClass('shrink');
+	}
+});
+
 	// our plugin constructor
 	var OnePageNav = function(elem, options){
 		this.elem = elem;
