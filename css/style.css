@@ -431,6 +431,7 @@ a:hover {
 #work {
   text-align: center;
       font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin-bottom:5%;
 }
 
 #work h2 {
@@ -444,6 +445,7 @@ a:hover {
   font-size: 24px;
   font-weight: 500;
 }
+/*
 
 #work .col-md-3 {
   width:23%;
@@ -451,8 +453,10 @@ a:hover {
   margin:3% 1% 5% 1%;
   position: relative;
   transition: all 0.4s ease-in-out;
-  background-color:#ecf0f1;
+  background-color:#ecf0f1  ;
 }
+*/
+
 #work .button-about {
   font-size:1.1em;
   font-weight:400;
@@ -469,11 +473,11 @@ a:hover {
 #work .title {
   margin-bottom:4%;
 }
+
 #work .col-md-3:hover {
-  background-color: #89b0ae;
   color:white;
-  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
+
 #work .col-md-3:hover button {
   color:white;
   transition: all 0s ease-in-out;
@@ -482,24 +486,76 @@ a:hover {
   -ms-transition: all 0s ease-in-out;
 }
 
+/* test hover stuff */ 
+#widget {
+  background-color: #ecf0f1;
+  width:100%;
+  height:100%;
+    padding-top:20px;
+}
+#widget-img1 {
+  background: url('../images/goal-1-icon.jpg') center no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 75px;
+  display: inline-block;
+}
+#widget-img2 {
+  background: url('../images/res-1-icon.jpg') center no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 75px;
+  display: inline-block;
+}
+#widget-img3 {
+  background: url('../images/int-1-icon.jpg') center no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 75px;
+  display: inline-block;
+}
+#widget-img4 {
+  background: url('../images/search-1-icon.jpg') center no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 75px;
+  display: inline-block;
+}
 
+#widget:hover {
+    cursor: pointer;
+    background-color: #89b0ae;
+    width:100%;
+}
 
-.quote-icon {
-  width: 40%;
-  height:40%;
-  margin-left:35%;
-  margin-top: 6%;
+#widget:hover h2,
+#widget:hover p {
+  color: #ecf0f1;
+}
 
+#widget:hover #widget-img1 {
+  background: url('../images/goal-2-icon.jpg') center no-repeat;
+  background-size: contain;
+}
+
+#widget:hover #widget-img2 {
+  background: url('../images/res-2-icon.jpg') center no-repeat;
+  background-size: contain;
+}
+
+#widget:hover #widget-img3 {
+  background: url('../images/int-2-icon.jpg') center no-repeat;
+  background-size: contain;
+}
+
+#widget:hover #widget-img4 {
+  background: url('../images/search-2-icon.jpg') center no-repeat;
+  background-size: contain;
 }
 
 
 
-.services {
-  width:34%;
-  height: 0 auto;
-   
-
-}
+/* test hover stuff */
 
 /*
 .services:nth-child(4) {
@@ -1030,7 +1086,7 @@ img.mail-icon {
     font-size: 1.4em;
     padding: 20px;
     width: 200px;
-    transition: all 0.5s;
+    transition: all 0.2s;
     cursor: pointer;
     margin: 5px;
     vertical-align:middle;
@@ -1040,7 +1096,7 @@ img.mail-icon {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: .6s;
+    transition: .2s;
   }
   .button-about span:after {
     content: '-';
@@ -1048,7 +1104,7 @@ img.mail-icon {
     opacity: 0;
     top: 0;
     right: -40px;
-    transition: .5s;
+    transition: .2s;
   }
 
   .button-about:hover span {
