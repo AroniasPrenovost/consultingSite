@@ -21,18 +21,19 @@
 
 // jquery navbar brand disappear on scroll effect 
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 0)
+	if ($(this).scrollTop() > 0 && $(window).width()>768)
 	{
 		$('.navbar').addClass('shrink');
-		$('.top-brand').fadeOut();
+		$('.top-brand, .box').fadeOut();
 		$('.navlogo').addClass('move');
-		$('.box').fadeOut();
+		$('.navbar-brand').addClass('red');
 	}
 	else
 	{
 		$('.box, .top-brand').fadeIn();
 		$('.navlogo').removeClass('move');
 		$('.navbar').removeClass('shrink');
+		$('.navbar-brand').removeClass('red');
 	}
 });
 
