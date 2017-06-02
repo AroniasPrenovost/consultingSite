@@ -64,7 +64,7 @@ img:hover {
 }
 
 .navbar.shrink {
-  min-height: 100px;
+  min-height: 50px;
 padding-bottom: 0px;
   background-color:white;
   transition: all 0.1s ease-in-out;
@@ -75,7 +75,7 @@ padding-bottom: 0px;
 
 .navlogo.move {
   margin-top:-10%;
-  margin-left:-28%;
+  margin-left:-30%;
     transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -1603,6 +1603,10 @@ h1 {
 #footer-head {
   font-weight:bold;
 }
+
+#foot-body .col-md-3, .col-md-2 {
+    text-align: left;
+}
 #foot-copyright {
   text-align:left;
   margin:0% 0 1% 0%;
@@ -1615,16 +1619,20 @@ h1 {
 }
 
 #foot-head p {
-  margin-right:60%;
-  padding-left:0%;
+text-align:left;
+  margin-left:6%;
+  font-size:1.8em;
+  font-weight:bold;
 }
 
-#foot-head button {
-  color:black;
+#foot-head h4 {
+  font-size:1.5em;
 }
+
 #foot-head .button {
-  margin-left:40%;
+  margin-left:50%;
   border-color:grey;
+   color:black;
 }
 
 
@@ -1817,6 +1825,7 @@ margin-top:1%;
 #wrapper {
   margin-top:10%;
   background-color:transparent;/*accounts for slow loading css background n*/
+  margin-bottom: -10%;
 }
 
 #a:hover:before {
@@ -1888,7 +1897,68 @@ margin-top:1%;
   margin-bottom:15px;
 }
 
-  }
+/* intro and toggle buttons */
+#news, #about {
+  display:none;
+}
+
+/* news and blog section 1 */
+#work1 .col-md-4 {
+  width:100%;
+margin-bottom:4%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* news and blog section 2 */
+#work2 .col-md-4 {
+  width:100%;
+margin-bottom:4%;
+    overflow: hidden;
+    position: relative;
+}
+#work1 .col-md-4:nth-child(3) {
+  display:none; /* Profile picture - mobile users can dig deeper if need be */
+}
+#work2 .col-md-8 {
+  width:100%;
+margin-bottom:4%;
+    overflow: hidden;
+    position: relative;
+}
+
+#foot-head p {
+  text-align: center;
+}
+
+#foot-head h4 {
+    margin-left: 4px;
+    margin-right:4px;
+}
+
+#foot-head .button {
+  margin-left:0%;
+  margin-bottom:4%;
+}
+
+#foot-body .col-md-3:nth-child(1) {
+    display:none; /* removes application link on mobile */
+}
+
+#foot-body .col-xs-12 {
+  margin-top:4%;
+}
+
+#foot-body .foot-row {
+  margin-top:12%;
+}
+
+#foot-body button.button-about {
+  width:50%;
+}
+
+
+}
 
 /* media 960 */
 @media only screen and ( max-width: 980px ) {
