@@ -277,15 +277,6 @@ padding-bottom: 100px;  */
   background-size: cover;
 }
 
-.layer {
-  background-color: #f2f3f7; 
-  background-color:cover;
-  opacity: .95;
-  width: 45%;
-  height: 100%; 
-}
-
-
 /* section two twbs */
 #about {
   background: #3B3B3B;
@@ -434,7 +425,7 @@ a:hover {
 #work {
   text-align: center;
       font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin-bottom:5%;
+      margin-bottom:7%;
 }
 
 #work h2 {
@@ -462,16 +453,27 @@ a:hover {
 
 #work .button-about {
   font-size:1.1em;
-  font-weight:400;
+  font-weight:300;
+      transition: all 0s;
+    padding-top: 2%;
+    padding-bottom: 15%;
+}
+
+#work .col-lg-3 .col-md-3 .col-sm-12 .col-xs-12 {
+padding-left:1%;
+padding-right:1%;
+}
+
+#work .row {
+    margin-right: -5%;
+    margin-left: -5%;
 }
 
 #work .button-about span:after {
   content: '\00bb';
   color:white;
 }
-#work .button-about {
-  margin-bottom:0;
-}
+
 
 #work .title {
   margin-bottom:4%;
@@ -490,7 +492,7 @@ a:hover {
   background-color: #ecf0f1;
   width:100%;
   height:100%;
-    padding-top:10%;
+    padding-top:17.5%;
       transition: all 0s ease-in-out;
   -webkit-transition: all 0s ease-in-out;
   -moz-transition: all 0s ease-in-out;
@@ -774,7 +776,7 @@ section#work .button-about span:after {
 }
 
 #work2 .contact-button {
-  display: inline-block;
+  : inline-block;
   border-radius: 4px;
   background-color: transparent;
   border: none;
@@ -1007,14 +1009,15 @@ img.mail-icon {
 .section-2 {
   width:60%;
   background-color: #ff6f59;
-  opacity:.925;
+  opacity:.95;
   margin:0 auto;
   margin-top:18%;
   margin-bottom: 12%;
   text-align: center;
-  text-align:left;}
+  text-align:left;
+}
   .section-2-content {
-    padding:5% 5% 5% 5%;
+    padding:10% 10% 10% 10%;
   }
   .section-2-content button {
     margin-top:5%;
@@ -1063,11 +1066,13 @@ img.mail-icon {
   }
   #news3 {
     text-align: center;
-    padding-top: 75px; /* used to be 80px */
+    padding-top: 4%; /* used to be 80px */
     padding-bottom: 0px;
     background-color: #fff;
   }
-
+#news3 .title {
+  margin-bottom:3%;
+}
 
   #gallery {
     text-align: center;
@@ -1140,14 +1145,24 @@ img.mail-icon {
     /*  border-right: 2px solid #f2af00; */
     display: inline-block;
     padding: 5px 5px 5px 5px;
-    font-size: 22px;
-    color: #ff6f59;
+    font-size: 1.4em;
+    color: black;
+    font-weight:300;
+  }
+
+  #news3 p {
+    font-size: 2.5em;
+    margin-top: 3px;
+    color: black;
+    font-weight:bold;
   }
 
   #news p {
     color:#ff6f59;
     padding-top:10px;
   }
+
+
 
   #gallery h2 {
     display: inline-block;
@@ -1177,18 +1192,6 @@ img.mail-icon {
   #news p:nth-child(3) {
     font-size: 18px;
     margin-bottom: 1px;
-    color: grey;
-  }
-  #news3 p {
-    font-size: 30px;
-    margin-top: 3px;
-    margin-bottom: 0px;
-    color: black;
-  }
-
-  #news3 p:nth-child(3) {
-    font-size: 18px;
-    margin-bottom: 3px;
     color: grey;
   }
   #news123 {
@@ -1232,82 +1235,58 @@ img.mail-icon {
     margin-bottom:0;
   }
 
-  /* quote section buttons */
-  #displayDetails {
+
+#about button:nth-child(-n+3) {
     background-color: transparent;
     border:none;   
     margin-right:5px;
     margin-left:5px;
     border-radius:0px;
     font-size:1.4em;
-  }
+}
 
-  #displayDetails:hover {
+#about button:hover:nth-child(-n+3) {
     background-color: transparent;
     text-decoration: none;
     color:#c0392b;
-  }
+}
 
-  #displayDetails:active {
+#about button:active:nth-child(-n+3) {
     background-color: transparent;
     text-decoration: none;
     color:#c0392b;
-  }
-  #displayDetails:focus {
-    background-color: transparent;
-    text-decoration: none;
-    color:#c0392b;
-  }
+}
 
-  #displayDetail {
-    border:none;
-    background-color: transparent;   
-    margin-right:5px;
-    margin-left:5px;
-    border-radius:0px;
-    font-size:1.4em;
-  }
-  #displayDetail:hover {
-    background-color: transparent;
+#about button:focus:nth-child(-n+3) {
+      background-color: transparent;
     text-decoration: none;
     color:#c0392b;
-  }
+}
 
-  #displayDetail:active {
-    background-color: transparent;
+#about button.button {
+       background-color: white;
+    background: transparent;
+    border: 4.4px solid white;
+    color: white;
+    padding: 2px 16px;
+    text-align: center;
+    font-weight: 700;
     text-decoration: none;
-    color:#c0392b;
-  }
-  #displayDetail:focus {
-    background-color: transparent;
-    text-decoration: none;
-    color:#c0392b;
-  }
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 6% 0px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 0px;
+}
 
-  #displayDetai {
-    border:none;
-    background-color: transparent;  
-    margin-right:5px;
-    margin-left:5px;
-    border-radius:0px;
-    font-size:1.4em;
-  }
-  #displayDetai:hover {
-    background-color: transparent;
-    text-decoration: none;
-    color:#c0392b;
-  }
-
-  #displayDetai:active {
-    background-color: transparent;
-    text-decoration: none;
-    color:#c0392b;
-  }
-  #displayDetai:focus {
-    background-color: transparent;
-    text-decoration: none;
-    color:#c0392b;
-  }
+#about button.button:hover {
+       background-color: white;
+    background: transparent;
+    border: 4.4px solid grey;
+    color: grey;
+}
 /* use this because Chrome will apply highlighting to 
 other elements such as DIV's used as modals */
 *:focus {
@@ -1842,7 +1821,7 @@ margin-top:1%;
   width: 100%;
   margin-top:10%;
   text-decoration: none;
-  background-color:#ff6f59;
+  background: url('../images/dk-blue-gl-lg.jpg')no-repeat center left; 
   background-size: cover;
 }
 
@@ -1862,8 +1841,10 @@ margin-top:1%;
   width: 100%;
   overflow: hidden;
   text-decoration: none;
-  background-color: #ff6f59;
-
+  opacity:1;
+  background: url('../images/right-bg-red-lg.jpg')no-repeat center left; 
+  background-size: cover;
+  z-index:1;
 }
 
 #b a {
@@ -1918,13 +1899,15 @@ margin-bottom:4%;
     position: relative;
 }
 #work1 .col-md-4:nth-child(3) {
-  display:none; /* Profile picture - mobile users can dig deeper if need be */
+/* Profile picture - mobile users can dig deeper if need be */
+  background-image: url("../images/zack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+margin-bottom:-1px;
 }
 #work2 .col-md-8 {
-  width:100%;
-margin-bottom:4%;
-    overflow: hidden;
-    position: relative;
+display:none;
 }
 
 #foot-head p {
@@ -1957,6 +1940,10 @@ margin-bottom:4%;
   width:50%;
 }
 
+.social-icons li a {
+  margin-top:6%;
+  margin-left:24px;
+}
 
 }
 
@@ -1972,16 +1959,9 @@ margin-bottom:4%;
 /* media 360 */
 @media only screen and ( max-width: 360px ) {
 
-
-
-
   #team h4 {
     padding-bottom: 30px;
   }
 
-
-
-
-  /*mobile styling */
   /*mobile styling */
 }
