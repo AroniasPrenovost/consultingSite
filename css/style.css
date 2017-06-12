@@ -197,8 +197,8 @@ padding-bottom: 100px;  */
 }
 
 #wrapper {
-  height: 100vh;
-  margin-top:10%;
+  height: 90vh;
+  margin-top:100px;
   background-color:#89b0ae;/*accounts for slow loading css background n*/
 }
 
@@ -217,6 +217,7 @@ padding-bottom: 100px;  */
   text-decoration: none;
   background: url('../images/dk-blue-lg-2.jpg')no-repeat center left; 
   background-size: cover;
+  display:block;
 }
 
 #a:hover {
@@ -224,6 +225,7 @@ padding-bottom: 100px;  */
   text-decoration: none;
   background: url('../images/dk-blue-gl-lg.jpg')no-repeat center left; 
   background-size: cover;
+  display:block;
 }
 
 #b {
@@ -922,7 +924,7 @@ img.mail-icon {
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   width: 100%;
-  padding-top:20%;
+  padding-top:35%;
   color:white;
 }
 
@@ -934,7 +936,7 @@ img.mail-icon {
 
 .call-to-action h2 {
   color:white;
-  font-size:3.5em;
+  font-size:3.2em;
   font-weight:700;
   margin-top:2%; 
   margin-bottom:4%;
@@ -985,10 +987,7 @@ img.mail-icon {
   text-align: center;
   padding-bottom: 60px;
 }
-#about img {
-  border: 1px solid #666;
-  margin-bottom: 10px;  
-}
+
 #about h4 {
   padding-bottom: 10px;
 }
@@ -1586,6 +1585,9 @@ h1 {
 #foot-body .col-md-3, .col-md-2 {
     text-align: left;
 }
+#foot-body .col-md-2 img {
+    display:none; /* removes image icon from desktop */
+}
 #foot-copyright {
   text-align:left;
   margin:0% 0 1% 0%;
@@ -1900,10 +1902,11 @@ margin-bottom:4%;
 }
 #work1 .col-md-4:nth-child(3) {
 /* Profile picture - mobile users can dig deeper if need be */
-  background-image: url("../images/zack.jpg");
+  background-image: url("../images/zack-lg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height:100%;
+padding-bottom:100%;
 margin-bottom:-1px;
 }
 #work2 .col-md-8 {
@@ -1925,7 +1928,18 @@ display:none;
 }
 
 #foot-body .col-md-3:nth-child(1) {
+    display:none; /* removes adress link on mobile */
+}
+#foot-body .col-md-2 p,h4 {
     display:none; /* removes application link on mobile */
+}
+
+#foot-body .col-md-2 img {
+    width:80%;
+    height:80%;
+    display:block; /* removes image icon from desktop */
+    float:right;
+    font-weight:200;
 }
 
 #foot-body .col-xs-12 {
