@@ -5,7 +5,7 @@ function chbg(color) {
 
 // quote generator
 var quotesArr1 = [];
-quotesArr1[0] = '<span style="font-size:3.3em">We find Compatibility.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr1[0] = '<span style="font-size:2.5em;line-height:1.2">We find Compatibility.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
@@ -17,7 +17,7 @@ displayDetails1(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails1").onclick = displayDetails1;
 
 var quotesArr2 = [];
-quotesArr2[0] = '<span style="font-size:3.3em">We help clients.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr2[0] = '<span style="font-size:2.5em;line-height:1.2">We help clients.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
 function displayDetails2(){
@@ -28,7 +28,7 @@ displayDetails2(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails2").onclick = displayDetails2;
 
 var quotesArr3 = [];
-quotesArr3[0] = '<span style="font-size:3.3em">We understand goals.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr3[0] = '<span style="font-size:2.5em;line-height:1.2">We understand goals.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
 function displayDetails3(){

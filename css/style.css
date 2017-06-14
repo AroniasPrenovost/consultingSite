@@ -357,32 +357,8 @@ h1.heading.bold {
   font-weight:800;
   color:#f1ab86;
 }
-/* -------------------- */
-.sigma-content {
-  padding: 15% 40px;
-  border-right: none;
-  border-bottom: none;
-  min-height: 280px;
-  color: #f1ab86;
-  text-align: left;
-}
 
-.sigma-content h2 {
-  font-size: 6.5em;
-  font-weight:800;
-}
-.sigma-content p {
-  font-size: 2em;
-}
-/* ------------------- */
-#home h1 {
-  color: #407595;
-  font-weight: 800;
-  padding-top: 4%;
-  padding-left: 9%;
-  padding-bottom: 5px;
-  font-size: 30px;
-}
+
 #home h2 {
   line-height: 10px;
   padding-bottom: 2px;
@@ -412,12 +388,12 @@ h1.heading.bold {
 }
 
 a {
-  color: #F1AB86; /*#57a773; /* #a0ecd0; */
+  color: black; /*#57a773; /* #a0ecd0; */
   font-weight: 600;
 }
 
 a:hover {
-  color: #57a773;
+  color: #95a5a6;
 }
 
 #work:hover + .button-id {
@@ -728,13 +704,6 @@ section#work .button-about span:after {
 
 #work1 .title h2 {
   font-size: 35px;
-}
-
-.quote-icon {
-  width: 40%;
-  height:40%;
-  margin-left:35%;
-  margin-top: 6%;
 }
 
 #work1 h3 {
@@ -1063,13 +1032,13 @@ img.mail-icon {
     padding-bottom: 20px;
     background-color: #ecf0f1;
   }
-  #news3 {
+  #services {
     text-align: center;
     padding-top: 4%; /* used to be 80px */
     padding-bottom: 0px;
     background-color: #fff;
   }
-#news3 .title {
+#services .title {
   margin-bottom:3%;
 }
 
@@ -1395,56 +1364,6 @@ h1 {
   margin: 0 0 0.75rem 0;
 }
 
-/* pricing section */
-#pricing {
-  padding-top: 60px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-#pricing h2 {
-  border-left: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 10px 10px 20px;
-}
-#pricing .plan {
-  border: 2px solid #444;
-  padding: 20px 20px 40px 20px;
-  margin-top: 60px;
-}
-#pricing .plan .plan-title {
-  border-bottom: 2px solid #444;
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 20px;
-}
-#pricing .plan small,
-#pricing .plan ul li {
-  font-family: 'Raleway', sans-serif;
-}
-#pricing .plan ul {
-  padding: 0;
-}
-#pricing .plan ul li {
-  display: block;
-  padding: 16px 0px 16px 0px;
-}
-#pricing .plan .btn {
-  background: transparent;
-  border: 2px solid #444;
-  border-radius: 0px;
-  color: #000;
-  font-weight: bold;
-  width: 140px;
-  height: 50px;
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-}
-#pricing .plan .btn:hover {
-  background: #f2af00;
-  border-color: transparent;
-}
-
 /* contact section */
 #contact {
   padding-top: 40px;
@@ -1492,7 +1411,7 @@ h1 {
 
 .uploadbutton {
   background: #f39c12; 
-  margin-top:0%;
+  margin-top:6%;
   padding-top:1%;
   width:50%;
   border-color: transparent;
@@ -1588,6 +1507,8 @@ h1 {
 #foot-body .col-md-2 img {
     display:none; /* removes image icon from desktop */
 }
+
+
 #foot-copyright {
   text-align:left;
   margin:0% 0 1% 0%;
@@ -1774,15 +1695,24 @@ footer span {
   background:#ecf0f1; 
   color:#95a5a6;
 }
+@media (min-width: 768px) {
+.navbar-right {
+  margin-right:50px;
+}
+}
+
 
 @media screen and (max-width: 736px) {
 html, body {
   overflow-x: hidden; /* overrides .col-lg-12 default paddinh */
 }
+
+
 .navbar {
     position: fixed;
     min-height: 50px;
 }
+
 .navbar-brand{
   padding-left:10px;
 }
@@ -1817,8 +1747,8 @@ margin-top:1%;
 
 #a {
   position: relative;
-  min-height: 45%;
-  height:45%;
+  min-height: 47.5%;
+  height:47.5%;
   float: left;
   width: 100%;
   margin-top:10%;
@@ -1838,8 +1768,8 @@ margin-top:1%;
 
 #b {
   position: relative;
-  min-height: 45%;
-  height:45%;
+  min-height: 47.5%;
+  height:47.5%;
   width: 100%;
   overflow: hidden;
   text-decoration: none;
@@ -1882,9 +1812,22 @@ margin-top:1%;
 
 /* intro and toggle buttons */
 #news, #about {
-  display:none;
+ /* display:none; */
 }
 
+#news {
+  padding-bottom:-10px;
+}
+.section-2 {
+  width:100%;
+}
+#services .title {
+  padding-top:10%;
+}
+
+#work {
+  margin-top:-10%;
+}
 /* news and blog section 1 */
 #work1 .col-md-4 {
   width:100%;
@@ -1915,6 +1858,8 @@ display:none;
 
 #foot-head p {
   text-align: center;
+  padding:5% 5%;
+   margin-left:0px;
 }
 
 #foot-head h4 {
@@ -1924,7 +1869,7 @@ display:none;
 
 #foot-head .button {
   margin-left:0%;
-  margin-bottom:4%;
+  margin-bottom:5%;
 }
 
 #foot-body .col-md-3:nth-child(1) {
@@ -1966,8 +1911,16 @@ display:none;
   .navbar-default .navbar-nav li a {
     padding-right: 20px;
     padding-left: 40px;
-    line-height: 30px;
+    line-height:30px;
   }
+
+.section-2-content {
+  height:400px;
+}
+
+
+
+
 }
 
 /* media 360 */

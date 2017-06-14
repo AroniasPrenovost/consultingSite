@@ -263,14 +263,6 @@ padding-bottom: 100px;  */
   padding-top:6%;
 }
 
-a {
-  color: #F1AB86; /*#57a773; /* #a0ecd0; */
-  font-weight: 600;
-}
-
-a:hover {
-  color: #57a773;
-}
 
 .button {
   background-color: white; /* Green */
