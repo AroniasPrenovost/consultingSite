@@ -12,16 +12,17 @@
   padding-top: 14px;
 }
 
+#service-layout h4 {
+  color:red;
+}
 #service-layout a {
-  color:black;
-  font-weight:400;
+  color:#95a5a6;
+  font-weight:bold;
 }
 
 #service-layout a:hover{
   color:#95a5a6;
 }
-
-
 
 .project-info {
 	text-align:left;
