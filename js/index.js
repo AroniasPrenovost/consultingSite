@@ -5,7 +5,7 @@ function chbg(color) {
 
 // quote generator
 var quotesArr1 = [];
-quotesArr1[0] = '<span style="font-size:2.5em;line-height:1.2">We find Compatibility.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr1[0] = '<span style="font-size:1.2em; color:white">\"CareerRefined took a very consultative approach with my job search. They patiently helped me overcome my interview anxiety with strong preparation and reminding me of all the positive attributes I had to offer.\"</span><br><span style="font-size:1.1em;line-height:1.2;margin-left:42.5%;">-Madison</span>';
 
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
@@ -17,7 +17,7 @@ displayDetails1(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails1").onclick = displayDetails1;
 
 var quotesArr2 = [];
-quotesArr2[0] = '<span style="font-size:2.5em;line-height:1.2">We help clients.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr2[0] = '<span style="font-size:1.2em; color:white">\"They walked me through the process of framing my resume to amplify my limited experience and showcase my strong points in a way employers would take notice to.\"</span><br><span style="font-size:1.1em;line-height:1.2;margin-left:42.5%;">-Daniel</span>';
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
 function displayDetails2(){
@@ -28,7 +28,7 @@ displayDetails2(); // sort of hacky but it's only a couple, right?
 	document.getElementById("displayDetails2").onclick = displayDetails2;
 
 var quotesArr3 = [];
-quotesArr3[0] = '<span style="font-size:2.5em;line-height:1.2">We understand goals.</span> <br> <span style="font-size:1.0em; color:white">I asked Chris if he could make hair after finishing and he was happy to oblige.  He truly takes his time to make sure everything is perfect.</span>';
+quotesArr3[0] = '<span style="font-size:1.2em; color:white">\"When I decided to finally go for the job I knew I always wanted, but didn’t go to school for, CareerRefined was the extra boost I needed and I couldn’t have been happier with the process.\"</span><br><span style="font-size:1.1em;line-height:1.2;margin-left:42.5%;">-Elizabeth</span>';
 // cycle through the quotes
 // setInterval(displayDetails, 3500);  // now we have buttons 
 function displayDetails3(){

@@ -53,7 +53,8 @@ img:hover {
 
 .navbar-brand.red {
   color:#ff6f59;
-  font-size:2em;
+  font-size:2.5em;
+  margin-left:-15px;
 }
 .navbar {
   position: fixed;
@@ -215,7 +216,7 @@ padding-bottom: 100px;  */
   float: left;
   width: 50%;
   text-decoration: none;
-  background: url('../images/dk-blue-lg-2.jpg')no-repeat center left; 
+  background: url('../images/dk-blue-lg-2-min.jpg')no-repeat center left; 
   background-size: cover;
   display:block;
 }
@@ -223,7 +224,7 @@ padding-bottom: 100px;  */
 #a:hover {
   opacity:1;
   text-decoration: none;
-  background: url('../images/dk-blue-gl-lg.jpg')no-repeat center left; 
+  background: url('../images/dk-blue-gl-lg-min.jpg')no-repeat center left; 
   background-size: cover;
   display:block;
 }
@@ -417,6 +418,9 @@ a:hover {
 #work h3 {
   font-size: 24px;
   font-weight: 500;
+}
+#work h3:hover {
+color:white;
 }
 
 #work .button-about {
@@ -1054,7 +1058,7 @@ img.mail-icon {
     /*  border-right: 2px solid #f2af00; */
     display: inline-block;
     padding: 5px 5px 5px 5px;
-    font-size: 22px;
+    font-size: 26px;
     color: #ff6f59;
   }
 
@@ -1134,7 +1138,6 @@ img.mail-icon {
     color: rgb(242, 243, 247);
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    margin-top: 2%;
     font-size: 1.2em;  
     font-weight: 400; 
     padding-bottom: 14%;
@@ -1364,7 +1367,7 @@ h1 {
   background: #f39c12; 
   margin-top:6%;
   padding-top:1%;
-  width:50%;
+  width: 16%;
   border-color: transparent;
   color: white; /* this is the text "no file chosen" */
   transition: all 0.4s ease-in-out;
@@ -1375,7 +1378,7 @@ h1 {
 
 .uploadbutton:hover {
   background: #97b1a6;
-  width:50%;
+  width: 16%;
   border-color: transparent;
 }
 #contact p {
@@ -1417,12 +1420,14 @@ h1 {
 }
 
 #foot-body .col-md-3, .col-md-2 {
-    text-align: left;
+    text-align: left;   
+}
+#foot-body .col-md-2 p {
+    font-weight:600;   
 }
 #foot-body .col-md-2 img {
     display:none; /* removes image icon from desktop */
 }
-
 
 #foot-copyright {
   text-align:left;
@@ -1695,7 +1700,7 @@ margin-top:1%;
   width: 100%;
   margin-top:10%;
   text-decoration: none;
-  background: url('../images/dk-blue-gl-lg.jpg')no-repeat center left; 
+  background: url('../images/dk-blue-gl-lg-mobile.jpg')no-repeat center left; 
   background-size: cover;
 }
 
@@ -2051,7 +2056,7 @@ display:none;
   width: 100%;
   margin-top:10%;
   text-decoration: none;
-  background: url('../images/dk-blue-gl-lg.jpg')no-repeat center left; 
+  background: url('../images/dk-blue-gl-lg-mobile.jpg')no-repeat center left; 
   background-size: cover;
 }
 

@@ -36,8 +36,9 @@ img {
   max-width: 100%;
   height: auto;
   transition: all 0.3s ease-in;
-    width: 55%;
-    margin-left:25%;
+    width: 65%;
+    margin-left:18%;
+    margin-top:20px;
 }
 img:hover {
   cursor: pointer;
@@ -1386,7 +1387,7 @@ h1 {
   background: #f39c12; 
   margin-top:0%;
   padding-top:1%;
-  width:50%;
+  width: 16%;
   border-color: transparent;
   color: white; /* this is the text "no file chosen" */
   transition: all 0.4s ease-in-out;
@@ -1397,7 +1398,7 @@ h1 {
 
 .uploadbutton:hover {
   background: #97b1a6;
-  width:50%;
+  width: 16%;
   border-color: transparent;
 }
 .form-control::-moz-placeholder {

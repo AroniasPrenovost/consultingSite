@@ -37,6 +37,10 @@ $(window).scroll(function() {
 	}
 });
 
+$(".auto_select").mouseover(function(){
+ $(this).select();
+});
+
 	// our plugin constructor
 	var OnePageNav = function(elem, options){
 		this.elem = elem;
